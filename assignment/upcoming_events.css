@@ -1,0 +1,62 @@
+html{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body > p:nth-of-type(1){
+    text-align: center;
+    font-size: xx-large;
+    background-color: #6CCA9B;
+    color: indianred;
+}
+
+.menSingle,.menDoubles,.womenDoubles,.mixedDoubles{
+    width: 46%;
+    margin: 2%;
+    padding: 2%;
+    float: left;
+    display: block;
+    border: 5px solid indianred;
+    background-color: azure;
+    border-radius: 50px;
+ }
+
+body > div.last{
+    margin: 2%;
+ }
+
+ body > div.last > p{
+    font-size: 1em;
+    text-align: justify;
+    color: black;
+}
+
+body > div.last > p > b{
+    color: red;
+}
+
+button[type="Submit"]{
+    cursor: pointer;
+    height: 40px;
+    width: 180px;
+    margin: 1% auto;
+    background-color: #ebd581;
+    border-radius: 20px;
+    display: block;
+}
+
+button[type='submit']:hover{
+    background-color: rgb(221, 200, 138);
+}
+
+button[type='submit']:focus:active{
+    border: 4px solid darkgoldenrod;
+}

@@ -1,0 +1,23 @@
+.avatar{
+   float: right;
+   right: 10px;
+   border-radius: 50%;
+   box-sizing: border-box;
+   height: 100px;
+   width: 100px;
+   margin: auto;
+}
+
+.Title{
+    font-size: 50px;
+    text-align: center;
+}
+
+.a1{
+    font-size: 25px;
+    padding: 2%;
+}
+
+p{
+    color: dodgerblue;
+}

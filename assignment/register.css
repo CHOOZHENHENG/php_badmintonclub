@@ -1,0 +1,72 @@
+html{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body > form#login > div.form > p:nth-of-type(1){
+    color: black;
+}
+
+.form{
+    padding: 15px;
+    background-color: white;
+}
+
+form{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    background-color: #cfba5e;
+    width: 90%;
+    margin: 2% auto;
+    border-radius: 20px;
+}
+
+form div{
+    margin: 15px;
+    width: 100%;
+}
+
+label{
+    width: 150px;
+    color: black;
+}
+
+input[type=text],input[type=email],input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,input[type=email]:focus,input[type=password]:focus{
+    background-color: rgb(243, 243, 195);
+}
+
+input[type='submit'], input[type='reset'] {
+    cursor: pointer;
+    height: 40px;
+    width: 160px;
+    margin: 10px 10px;
+    background-color: #ebd581;
+    border-radius: 20px;
+}
+
+input[type='submit']:hover, input[type='reset']:hover{
+    background-color: rgb(221, 200, 138);
+}
+
+input[type='submit']:focus:active, input[type='reset']:focus:active{
+    border: 4px solid darkgoldenrod;
+}
