@@ -6,9 +6,10 @@ Students to:
 3. register an badminton event
 
 Admin to:
-1. add events, members, non-members
-2. update events, members, non-members, and their own profile
-3. delete events, members, non-members
+1. login
+2. add events, members, non-members
+3. update events, members, non-members, and their own profile
+4. delete events, members, non-members
 
 Languages and Tools used:
 1. PHP
