@@ -1,8 +1,9 @@
 This assignment project was done during diploma. It is about badminton club. It allows
-students to:
+Students to:
   1. register as member
   2. login
   3. register an badminton event
+
 Admin to:
 1. add events, members, non-members
 2. update events, members, non-members, and their own profile
